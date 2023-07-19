@@ -14,7 +14,15 @@ function recoger()
     arreglo_ingreso.push(dato4);
     dato4==0;
     alert(arreglo_ingreso);
-    document.getElementById('Salida').innerHTML= "datos  guardados" ;
+    if(arreglo_ingreso.length==0)
+    {
+        document.getElementById('Salida').innerHTML= "datos no guardados" ;
+    }
+    else
+    {
+        document.getElementById('Salida').innerHTML= "datos  guardados" ;
+    }
+    
 
   }
 
