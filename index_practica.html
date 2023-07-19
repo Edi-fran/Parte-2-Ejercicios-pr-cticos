@@ -5,33 +5,43 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Registro</title>
     <script src="logica.js"></script>
+    <link rel="stylesheet" href="adornitos.css">
 </head>
 <header>
+    <br>
     <div class="encab">
         <H1>Instituto Nuestra Señora del Rosario </H1>
         <h2></h2>
+        <h2>Registro de usuario</h2>
         <br>
     
     </div>
+    <br>
 </header>
 <body>
 
-  <div id="formulario">
-    <p>ingresar los nombres</p>
-    <input type="text" name ="dato[]" placeholder=" nombres"  id="ingreso1" ><br>
-    <p>ingresar los Apellidos</p>
-    <input type="text" name ="dato[]" placeholder="Apellidos" id="ingreso2" ><br>
-    <p>ingresar Username</p>
-    <input type="text" name ="dato[]" placeholder="Username"  id="ingreso3" ><br>
-    <p>ingresar la password</p>
-    <input type="text" name ="dato[]" placeholder="Password"  id="ingreso4" ><br>
+  <div class="formulario">
     <br>
-    <input type="button" value="Registrarse" onclick="recoger()">
-    <input type="button" value="limpiar" onclick="eliminar()">
-<br>
-<textarea  id="Salida" cols="20" rows="4"></textarea><br>
 
-<div class="pie">
+    <p>ingresar los nombres</p>
+    <input type="text" name ="dato[]" placeholder=" nombres"  id="ingreso1"  class="a"><br>
+    <p>ingresar los Apellidos</p>
+    <input type="text" name ="dato[]" placeholder="Apellidos" id="ingreso2" class="a"><br>
+    <p>ingresar Username</p>
+    <input type="text" name ="dato[]" placeholder="Username"  id="ingreso3" class="a"><br>
+    <p>ingresar la password</p>
+    <input type="text" name ="dato[]" placeholder="Password"  id="ingreso4" class="a"><br>
+    <br>
+    <input type="button" value="Registrarse" onclick="recoger()" class="b">
+    <input type="button" value="limpiar" onclick="eliminar()"class="b">
+<br>
+<br>
+<textarea  id="Salida" cols="50" rows="6" class="s"></textarea><br>
+
+<br>
+  </div> <br>
+  <br>
+  <div class="pie">
     <footer>
         <br>
         <br>
@@ -43,11 +53,6 @@
     <br>
     </footer>
  </div>
-  </div>
-       <p>
-
-
-       </p>
 
     
 </body>
